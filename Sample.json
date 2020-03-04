@@ -1,0 +1,429 @@
+{
+  "source": 2,
+  "revision": 1,
+  "description": null,
+  "createdBy": {
+    "displayName": "Merlin Liang",
+    "url": "https://spsprodea1.vssps.visualstudio.com/A2199fb74-xxx-ab4576547dad/_apis/Identities/6b7ae740-xxx-d4ac026876a8",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YWU3NDxxxYzAyNjg3NmE4"
+      }
+    },
+    "id": "6b7ae740-0334-6bea-93ee-d4ac026876a8",
+    "uniqueName": "merxxa@microsoft.com",
+    "imageUrl": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YxxxDRhYzAyNjg3NmE4",
+    "descriptor": "aad.NmI3YWU3NxxxxtZDRhYzAyNjg3NmE4"
+  },
+  "modifiedBy": {
+    "displayName": "Merlin Liang",
+    "url": "https://spsprodea1.vssps.visualstudio.com/A2199fb74-xxx-ab4576547dad/_apis/Identities/6b7ae740-0334-xxxx-d4ac026876a8",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YWU3NxxxxxDRhYzAyNjg3NmE4"
+      }
+    },
+    "id": "6b7ae740-0334-6bea-93ee-d4ac026876a8",
+    "uniqueName": "merxxa@microsoft.com",
+    "imageUrl": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YxxxNjg3NmE4",
+    "descriptor": "aad.NmI3YWU3NxxxxtZDRhYzAyNjg3NmE4"
+  },
+  "isDeleted": false,
+  "lastRelease": {
+    "id": 1,
+    "name": "Release-1",
+    "artifacts": [],
+    "_links": {},
+    "description": "",
+    "releaseDefinition": {
+      "id": 1,
+      "projectReference": null,
+      "_links": {}
+    },
+    "createdBy": {
+      "displayName": "Merlin Liang",
+      "url": "https://spsprodea1.vssps.visualstudio.com/A2199fb74-xxx-ab4576547dad/_apis/Identities/6b7ae740-xxx-d4ac026876a8",
+      "_links": {
+        "avatar": {
+          "href": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YWU3NDAxxxxRhYzAyNjg3NmE4"
+        }
+      },
+      "id": "6b7ae740-xxx3ee-d4ac026876a8",
+      "uniqueName": "merxxa@microsoft.com",
+      "imageUrl": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YWUxxxxjg3NmE4",
+      "descriptor": "aad.NmI3YWU3NDxxxxzAyNjg3NmE4"
+    }
+  },
+  "variables": {},
+  "variableGroups": [],
+  "environments": [
+    {
+      "id": 1,
+      "name": "Stage 1",
+      "rank": 1,
+      "owner": {
+        "displayName": "Merlin Liang",
+        "url": "https://spsprodea1.vssps.visualstudio.com/A2199fb74-xxxx547dad/_apis/Identities/6b7ae740-xxxx-d4ac026876a8",
+        "_links": {
+          "avatar": {
+            "href": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YWUxxxxjg3NmE4"
+          }
+        },
+        "id": "6b7ae740-xxx-d4ac026876a8",
+        "uniqueName": "merxxa@microsoft.com",
+        "imageUrl": "https://dev.azure.com/MerlinPack/_apis/GraphProfile/MemberAvatars/aad.NmI3YWU3Nxxg3NmE4",
+        "descriptor": "aad.NmI3YWUxxx3NmE4"
+      },
+      "variables": {},
+      "variableGroups": [],
+      "preDeployApprovals": {
+        "approvals": [
+          {
+            "rank": 1,
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "id": 1
+          }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 1
+        }
+      },
+      "deployStep": {
+        "id": 2
+      },
+      "postDeployApprovals": {
+        "approvals": [
+          {
+            "rank": 1,
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "id": 3
+          }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 2
+        }
+      },
+      "deployPhases": [
+        {
+          "deploymentInput": {
+            "parallelExecution": {
+              "parallelExecutionType": 0
+            },
+            "agentSpecification": {
+              "identifier": "vs2017-win2016"
+            },
+            "skipArtifactsDownload": false,
+            "artifactsDownloadInput": {
+              "downloadInputs": []
+            },
+            "queueId": 18,
+            "demands": [],
+            "enableAccessToken": false,
+            "timeoutInMinutes": 0,
+            "jobCancelTimeoutInMinutes": 1,
+            "condition": "succeeded()",
+            "overrideInputs": {}
+          },
+          "rank": 1,
+          "phaseType": 1,
+          "name": "Agent job",
+          "refName": null,
+          "workflowTasks": [
+            {
+              "environment": {},
+              "taskId": "a433f589-fce1-4460-9ee6-44a624aeb1fb",
+              "version": "0.*",
+              "name": "Download Build Artifacts",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "definitionType": "task",
+              "overrideInputs": {},
+              "condition": "succeeded()",
+              "inputs": {
+                "buildType": "current",
+                "project": "",
+                "definition": "",
+                "specificBuildWithTriggering": "false",
+                "buildVersionToDownload": "latest",
+                "allowPartiallySucceededBuilds": "false",
+                "branchName": "refs/heads/master",
+                "buildId": "",
+                "tags": "",
+                "downloadType": "single",
+                "artifactName": "drop",
+                "itemPattern": "**",
+                "downloadPath": "$(System.ArtifactsDirectory)",
+                "parallelizationLimit": "8"
+              }
+            },
+            {
+              "environment": {},
+              "taskId": "497d490f-eea7-4f2b-ab94-48d9c1acdcb1",
+              "version": "4.*",
+              "name": "Azure App Service Deploy: MerApp",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "definitionType": "task",
+              "overrideInputs": {},
+              "condition": "succeeded()",
+              "inputs": {
+                "ConnectionType": "AzureRM",
+                "ConnectedServiceName": "94a0280f-8be2-4b15-9039-26142b8a98bc",
+                "PublishProfilePath": "$(System.DefaultWorkingDirectory)/**/*.pubxml",
+                "PublishProfilePassword": "",
+                "WebAppKind": "webApp",
+                "WebAppName": "MerApp",
+                "DeployToSlotOrASEFlag": "false",
+                "ResourceGroupName": "",
+                "SlotName": "production",
+                "DockerNamespace": "",
+                "DockerRepository": "",
+                "DockerImageTag": "",
+                "VirtualApplication": "",
+                "Package": "$(System.DefaultWorkingDirectory)/**/*.zip",
+                "RuntimeStack": "",
+                "RuntimeStackFunction": "",
+                "StartupCommand": "",
+                "ScriptType": "",
+                "InlineScript": ":: You can provide your deployment commands here. One command per line.",
+                "ScriptPath": "",
+                "WebConfigParameters": "",
+                "AppSettings": "",
+                "ConfigurationSettings": "",
+                "UseWebDeploy": "false",
+                "DeploymentType": "webDeploy",
+                "TakeAppOfflineFlag": "true",
+                "SetParametersFile": "",
+                "RemoveAdditionalFilesFlag": "false",
+                "ExcludeFilesFromAppDataFlag": "true",
+                "AdditionalArguments": "-retryAttempts:6 -retryInterval:10000",
+                "RenameFilesFlag": "true",
+                "XmlTransformation": "false",
+                "XmlVariableSubstitution": "false",
+                "JSONFiles": ""
+              }
+            },
+            {
+              "environment": {},
+              "taskId": "8ce97e91-56cc-4743-bfab-9a9315be5f27",
+              "version": "1.*",
+              "name": "File Transform: ",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "definitionType": "task",
+              "overrideInputs": {},
+              "condition": "succeeded()",
+              "inputs": {
+                "folderPath": "$(System.DefaultWorkingDirectory)/**/*.zip",
+                "enableXmlTransform": "true",
+                "xmlTransformationRules": "-transform **\\*.Release.config -xml **\\*.config",
+                "fileType": "xml",
+                "targetFiles": ""
+              }
+            },
+            {
+              "environment": {},
+              "taskId": "ce85a08b-a538-4d2b-8589-1d37a9ab970f",
+              "version": "1.*",
+              "name": "Azure SQL DacpacTask",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "definitionType": "task",
+              "overrideInputs": {},
+              "condition": "succeeded()",
+              "inputs": {
+                "ConnectedServiceNameSelector": "ConnectedServiceNameARM",
+                "ConnectedServiceName": "",
+                "ConnectedServiceNameARM": "94a0280f-8be2-4b15-9039-26142b8a98bc",
+                "AuthenticationType": "server",
+                "ServerName": "MerDB.database.windows.net",
+                "DatabaseName": "VSTSdb",
+                "SqlUsername": "$(username)",
+                "SqlPassword": "$(pw)",
+                "aadSqlUsername": "",
+                "aadSqlPassword": "",
+                "ConnectionString": "",
+                "TaskNameSelector": "DacpacTask",
+                "DeploymentAction": "Publish",
+                "DacpacFile": "$(agent.releaseDirectory) ",
+                "BacpacFile": "",
+                "SqlFile": "",
+                "SqlInline": "",
+                "PublishProfile": "$(agent.buildDirectory) ",
+                "AdditionalArguments": "",
+                "SqlAdditionalArguments": "",
+                "InlineAdditionalArguments": "",
+                "IpDetectionMethod": "AutoDetect",
+                "StartIpAddress": "",
+                "EndIpAddress": "",
+                "DeleteFirewallRule": "true"
+              }
+            }
+          ]
+        }
+      ],
+      "environmentOptions": {
+        "emailNotificationType": "OnlyOnFailure",
+        "emailRecipients": "release.environment.owner;release.creator",
+        "skipArtifactsDownload": false,
+        "timeoutInMinutes": 0,
+        "enableAccessToken": false,
+        "publishDeploymentStatus": true,
+        "badgeEnabled": false,
+        "autoLinkWorkItems": false,
+        "pullRequestDeploymentEnabled": false
+      },
+      "demands": [],
+      "conditions": [
+        {
+          "name": "ReleaseStarted",
+          "conditionType": 1,
+          "value": ""
+        }
+      ],
+      "executionPolicy": {
+        "concurrencyCount": 1,
+        "queueDepthCount": 0
+      },
+      "schedules": [],
+      "currentRelease": {
+        "id": 1,
+        "url": "https://vsrm.dev.azure.com/MerlinPack/2dd3efxxxx-c02ad23a7c0d/_apis/Release/releases/1",
+        "_links": {}
+      },
+      "retentionPolicy": {
+        "daysToKeep": 30,
+        "releasesToKeep": 3,
+        "retainBuild": true
+      },
+      "processParameters": {},
+      "properties": {
+        "BoardsEnvironmentType": {
+          "$type": "System.String",
+          "$value": "unmapped"
+        },
+        "LinkBoardsWorkItems": {
+          "$type": "System.String",
+          "$value": "False"
+        }
+      },
+      "preDeploymentGates": {
+        "id": 0,
+        "gatesOptions": null,
+        "gates": []
+      },
+      "postDeploymentGates": {
+        "id": 0,
+        "gatesOptions": null,
+        "gates": []
+      },
+      "environmentTriggers": [],
+      "badgeUrl": "https://vsrm.dev.azure.com/MerlinPack/_apis/public/Release/badge/2dd3ef00-xxxxx-c02ad23a7c0d/1/1"
+    }
+  ],
+  "artifacts": [
+    {
+      "sourceId": "2dd3ef00-xxxx-c02ad23a7c0d:6",
+      "type": "Build",
+      "alias": "_merlinLia.AzureDevopsPR",
+      "definitionReference": {
+        "defaultVersionBranch": {
+          "id": "",
+          "name": ""
+        },
+        "defaultVersionSpecific": {
+          "id": "",
+          "name": ""
+        },
+        "defaultVersionTags": {
+          "id": "",
+          "name": ""
+        },
+        "defaultVersionType": {
+          "id": "latestType",
+          "name": "Latest"
+        },
+        "definition": {
+          "id": "6",
+          "name": "merlinLia.AzureDevopsPR"
+        },
+        "definitions": {
+          "id": "",
+          "name": ""
+        },
+        "IsMultiDefinitionType": {
+          "id": "False",
+          "name": "False"
+        },
+        "project": {
+          "id": "2dd3ef00-3f2e-4e35-b404-c02ad23a7c0d",
+          "name": "npm"
+        },
+        "repository": {
+          "id": "",
+          "name": ""
+        },
+        "artifactSourceDefinitionUrl": {
+          "id": "https://dev.azure.com/MerlinPack/_permalink/_build/index?collectionId=35601846-xxxxx-e54776b1096c&projectId=2dd3ef00-3f2e-4e35-b404-c02ad23a7c0d&definitionId=6",
+          "name": ""
+        }
+      },
+      "isPrimary": true,
+      "isRetained": false
+    }
+  ],
+  "triggers": [],
+  "releaseNameFormat": "Release-$(rev:r)",
+  "tags": [],
+  "properties": {
+    "DefinitionCreationSource": {
+      "$type": "System.String",
+      "$value": "ReleaseNew"
+    },
+    "IntegrateBoardsWorkItems": {
+      "$type": "System.String",
+      "$value": "False"
+    },
+    "IntegrateJiraWorkItems": {
+      "$type": "System.String",
+      "$value": "false"
+    }
+  },
+  "id": 1,
+  "name": "AppDeploy",
+  "path": "\\",
+  "projectReference": null,
+  "url": "https://vsrm.dev.azure.com/MerlinPack/2dd3ef00-xxxx-c02ad23a7c0d/_apis/Release/definitions/1",
+  "_links": {
+    "self": {
+      "href": "https://vsrm.dev.azure.com/MerlinPack/2dd3ef00-xxxxx-c02ad23a7c0d/_apis/Release/definitions/1"
+    },
+    "web": {
+      "href": "https://dev.azure.com/MerlinPack/2dd3ef00-xxxxxx-c02ad23a7c0d/_release?definitionId=1"
+    }
+  }
+}
